@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyadharshini | Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Image Gallery</h1>
+        <p>Explore the beauty of nature</p>
+    </header>
+
+    <section class="filter-buttons">
+        <button class="active" onclick="filterImages('all', this)">All</button>
+        <button onclick="filterImages('nature', this)">Nature</button>
+        <button onclick="filterImages('animals', this)">Animals</button>
+        <button onclick="filterImages('places', this)">Places</button>
+    </section>
+
+    <div class="gallery">
+
+        <div class="image-box nature">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" alt="Nature">
+        </div>
+
+        <div class="image-box animals">
+            <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600" alt="Dog">
+        </div>
+
+        <div class="image-box places">
+            <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?w=600" alt="Mountain">
+        </div>
+
+        <div class="image-box nature">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=600" alt="Sunrise">
+        </div>
+
+        <div class="image-box animals">
+            <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783?w=600" alt="Cat">
+        </div>
+
+        <div class="image-box places">
+            <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600" alt="Beautiful place">
+        </div>
+
+    </div>
+
+    <div id="lightbox" class="lightbox" onclick="closeImage()">
+        <span>&times;</span>
+        <img id="largeImage" src="" alt="Full size image">
+    </div>
+
+    <footer>
+        <p>Created by Priyadharshini | Image Gallery Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

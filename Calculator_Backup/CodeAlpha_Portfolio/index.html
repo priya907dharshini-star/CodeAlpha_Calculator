@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyadharshini | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">Priya<span>.</span></h2>
+            <ul id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Priyadharshini</span></h1>
+            <h2>Frontend Developer</h2>
+            <p>
+                I am a Computer Science Engineering student
+                passionate about web development and technology.
+                I love creating beautiful and user-friendly websites.
+            </p>
+            <a href="#projects" class="btn">View My Work</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-content">
+            <h3>Computer Science Engineering Student</h3>
+            <p>
+                I am pursuing B.E. Computer Science and Engineering
+                at GRT Institute of Engineering and Technology.
+                I am interested in frontend development,
+                programming and learning new technologies.
+                My goal is to become a skilled software developer.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">C Programming</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Calculator Website</h3>
+                <p>
+                    A simple and interactive calculator developed
+                    using HTML, CSS and JavaScript.
+                    It performs basic mathematical operations.
+                </p>
+                <span>HTML | CSS | JavaScript</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    A responsive personal portfolio website
+                    showcasing my skills, education and projects.
+                </p>
+                <span>HTML | CSS | JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <p>Interested in working together? Let's connect!</p>
+        <a href="mailto:your-email@example.com" class="btn">
+            Send Email
+        </a>
+    </section>
+
+    <footer>
+        <p>© <span id="year"></span> Priyadharshini | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
